@@ -40,6 +40,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - App Developer:
+    - Rolle: appdev/appdev-role.md
   # - Linking Prozess:
   #   - AAI-API: linking/aai-api.md
   #   - OneIM-API: linking/oneim-api.md
