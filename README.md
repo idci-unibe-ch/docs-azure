@@ -1,20 +1,30 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# ID example documentation
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+In this repository the offical end user documenttion of [PROJECTNAME] and related topics
+is managed.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+This documentation project makes use of
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+  * [MkDocs](https://www.mkdocs.org/)
+  * [MkDocs Material Design Theme](https://squidfunk.github.io/mkdocs-material)
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+[LEAVE OR REMOVE THIS PART]
+## Contributions
+
+Everybody is invited to contribute to the doucmentation. If you find that certain topics
+are not sufficiently covered or difficult to understand, you can fork this repository,
+fix the respective part and then send us a pull request. Even for such small things like
+typos! Yes, really, we appreciate your effort!
+
+You can make our live easier when you ship logically selfcontained pull requests, which means:
+
+  * one logical change per pull reuqest (typos or a new paragraph on topic X, another for topic Y)
+  * squash multiple commits before starting the pull request
+
+Thank you!
+
+## License
+
+This work is licensed under the Creative Commons Attribution 3.0 Switzerland
+License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ch/
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.

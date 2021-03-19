@@ -1,0 +1,51 @@
+site_name: Azure Dokumentation
+
+# Configuration
+site_dir: site
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: light blue
+    accent: green
+extra_css:
+ - 'stylesheets/unibe.css'
+use_directory_urls: false
+
+# Copyright footer
+copyright: 'Copyright &copy; University of Bern, IT Service Office'
+# Social links at botoom right
+repo_name: 'id-docs-public/id-docs-azure'
+repo_url: 'https://dev.azure.com/unibe-id/id-docs-public/_git/id-docs-azure'
+edit_uri: ''
+
+# See https://python-markdown.github.io/extensions/ and
+# See https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions#Bundles
+#     https://facelessuser.github.io/pymdown-extensions/
+markdown_extensions:
+  - abbr
+  - def_list
+  - footnotes
+  - tables
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - sane_lists
+  - smarty
+  - toc
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+
+nav:
+  - Home: index.md
+  # - Linking Prozess:
+  #   - AAI-API: linking/aai-api.md
+  #   - OneIM-API: linking/oneim-api.md
+  # - Service Providers:
+  #   - Anmeldeprozess: service-provider/login-process.md
+  #   - Hybride Anmeldung: service-provider/hybrid-login.md
+  # - Staging Server:
+  #   - Funktionsweise: staging-server/how-it-works.md
+  #   - Verwendung: staging-server/how-to-use.md
