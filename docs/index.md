@@ -10,5 +10,9 @@ Ebenso können SAML2[^2] Anbindungen bei uns bestellt und dann eigenständig ver
 - [Bestellung und Nutzung der App-Developer Rolle](./appdev/appdev-role.md)
 
 
+## Lizenzadministratoren
+
+- [Zuweisung von Lizenzen über das Azure Portal](./licensing/assign-license-azp.md)
+
 [^1]: [Details zum OpenID Connect Protokoll](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc)
 [^2]: [Details zum SAML 2.0 Protokoll](https://docs.microsoft.com/en-us/azure/active-directory/develop/single-sign-on-saml-protocol)
