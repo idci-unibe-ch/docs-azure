@@ -6,8 +6,8 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: light blue
-    accent: green
+    primary: pink
+    accent: cyan
 extra_css:
  - 'stylesheets/unibe.css'
 use_directory_urls: false
@@ -42,6 +42,8 @@ nav:
   - Home: index.md
   - App Developer:
     - Rolle: appdev/appdev-role.md
+  - Lizenzverwaltung:
+    - Zuweisung AZP: licensing/assign-license-azp.md
   # - Linking Prozess:
   #   - AAI-API: linking/aai-api.md
   #   - OneIM-API: linking/oneim-api.md
