@@ -10,6 +10,8 @@ theme:
     accent: cyan
 extra_css:
  - 'stylesheets/unibe.css'
+extra_js:
+ - 'javascripts/bpmn-navigated-viewer.js'
 use_directory_urls: false
 
 # Copyright footer
@@ -42,6 +44,9 @@ nav:
   - Home: index.md
   - App Developer:
     - Rolle: appdev/appdev-role.md
+  - Teams:
+    - Telefonnummern verwalten: teams/teams-manage-phone-numbers.md
+    - PSTN Gateway anbinden: teams/teams-add-pstn-gateway.md
   - Lizenzverwaltung:
     - Zuweisung AZP: licensing/assign-license-azp.md
   # - Linking Prozess:
