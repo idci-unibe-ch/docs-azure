@@ -7,6 +7,8 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: pink
+      accent: cyan
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -48,6 +50,10 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - attr_list
+
+plugins:
+  - search
+  - table-reader
 
 nav:
   - Home: index.md
