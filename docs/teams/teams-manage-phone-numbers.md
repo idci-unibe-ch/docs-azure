@@ -20,7 +20,7 @@ Connect-MicrosoftTeams
 ```
 2. Auf dem gewünschten Account die Telefonoption aktivieren und eine Nummer zuweisen.  
 ``` powershell
-Get-CsOnlineUser -Identity "vorname.nachname@unibe.ch" | Set-CsUser -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI "tel:+41316341234"
+Get-CsOnlineUser -Identity "vorname.nachname@unibe.ch" | Set-CsUser -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI "tel:+41316841234"
 ```
 3. Die gewünschte Voice Routing Policy zuweisen[^1].  
 ``` powershell
