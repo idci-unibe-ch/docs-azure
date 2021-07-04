@@ -69,11 +69,11 @@ Im nächsten Schritt wird die Client Applikation eingerichtet, welche auf die AP
 
 ## Applikationsrolle(n) für die Ziel-API anfordern
 
-Damit die Client Applikation unter verwendung von bestimmten Rollen auf die API zugreifen kann, müssen diese auf der Microsoft Identity Platform angefordert werden.  
+Damit die Client Applikation unter Verwendung bestimmter Rollen auf die API zugreifen kann, müssen diese auf der Microsoft Identity Platform angefordert werden.  
 
 1. In den Reiter ***API permissions*** wechseln und auf ***Add a permission*** klicken. Etwaige, vorhandene Berechtigungen sind zu löschen.  
 ![API Permissions](./img/appdev_apiroles_api_cl_permissions.png)  
-2. In den Reiter ***APIs my organization uses*** wechseln und die zuvor erfasste API suchen und auswählen.  
+2. In den Reiter ***APIs my organization uses*** wechseln, die zuvor erfasste API suchen und auswählen.  
 ![Add API Permissions](./img/appdev_apiroles_api_cl_permissions_add.png)  
 3. Den gewünschten Zugriffstyp und die benötigte Rolle auswählen. Die verfügbaren Zugriffstypen sind dabei abhängig vom zuvor bei der API Konfiguration gewählten oAuth 2 Flow.  
 ![Choose API Roles](./img/appdev_apiroles_api_cl_permissions_choose.png)  
@@ -82,7 +82,7 @@ Um einen Missbrauch zu verhindern, ist es ab diesem Schritt erforderlich einen A
 
 ## Client Applikation vorbereiten
 
-Der Vorgang seitens Client Applikationen ist so, dass wir immer erst ein AccessToken von der Microsoft Identity Platform anfordern müssen, welches wir anschliessend für den API Aufruf nutzen.  
+Der Vorgang seitens Client Applikation ist so, dass immer erst ein AccessToken von der Microsoft Identity Platform angefordert werden muss, welches anschliessend für den API Aufruf genutzt werden kann.  
 Die Gültigkeit eines AccessTokens beträgt im Standard zwei Stunden.  
 
 Für die Microsoft Identity Platform wird der Zugriff idealerweise über die MSAL Library gemacht, welche [für alle aktuellen Programmier- und Scriptsprachen angeboten wird](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-v2-libraries).
