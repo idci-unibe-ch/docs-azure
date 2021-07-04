@@ -59,6 +59,7 @@ nav:
   - Home: index.md
   - App Developer:
     - Rolle: appdev/appdev-role.md
+    - Applikationsrollen: appdev/appdev-application-roles.md
   - Teams:
     - Telefonnummern verwalten: teams/teams-manage-phone-numbers.md
     - PSTN Gateway anbinden: teams/teams-add-pstn-gateway.md
