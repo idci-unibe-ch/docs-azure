@@ -10,6 +10,10 @@ Ebenso können SAML2[^2] Anbindungen bei uns bestellt und dann eigenständig ver
 - [Bestellung und Nutzung der App-Developer Rolle](./appdev/appdev-role.md)
 - [Arbeiten mit Applikationsrollen bei APIs](./appdev/appdev-application-roles.md)
 
+## Applikationen
+
+- [Bookings Kalender](./bookings/bookings-general.md)
+
 ## Lizenzadministratoren
 
 - [Zuweisung von Lizenzen über das Azure Portal](./licensing/assign-license-azp.md)

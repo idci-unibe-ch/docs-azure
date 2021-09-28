@@ -63,14 +63,12 @@ nav:
   - Teams:
     - Telefonnummern verwalten: teams/teams-manage-phone-numbers.md
     - PSTN Gateway anbinden: teams/teams-add-pstn-gateway.md
+  - Bookings:
+    - Übersicht: bookings/bookings-general.md
+    # - Account erstellen: bookings/bookings-add-account.md
+    # - Kalender erstellen: bookings/bookings-add-calendar.md
+    # - Kalender konfigurieren: bookings/bookings-calendar-settings.md
+    # - Kalender verwenden: bookings/bookings-calendar-enduser.md
+    - Kalender exportieren: bookings/bookings-calendar-export.md
   - Lizenzverwaltung:
     - Zuweisung AZP: licensing/assign-license-azp.md
-  # - Linking Prozess:
-  #   - AAI-API: linking/aai-api.md
-  #   - OneIM-API: linking/oneim-api.md
-  # - Service Providers:
-  #   - Anmeldeprozess: service-provider/login-process.md
-  #   - Hybride Anmeldung: service-provider/hybrid-login.md
-  # - Staging Server:
-  #   - Funktionsweise: staging-server/how-it-works.md
-  #   - Verwendung: staging-server/how-to-use.md
