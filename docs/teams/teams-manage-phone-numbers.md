@@ -49,7 +49,7 @@ Connect-MicrosoftTeams
 ```
 2. Auf dem gewünschten Account die Telefonnummer löschen.  
 ``` powershell
-Get-CsOnlineUser -Identity "vorname.nachname@unibe.ch" | Set-CsUser -OnPremLineURI " "
+Get-CsOnlineUser -Identity "vorname.nachname@unibe.ch" | Set-CsUser -OnPremLineURI $null
 ```
 
 [^1]: [Siehe: PSTN Gateway anbinden](teams-add-pstn-gateway.md)
