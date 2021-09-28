@@ -36,15 +36,15 @@ Geben Sie den erhaltenen PIN ein und berühren Sie den Sicherheitskey an den Sei
 3. Wählen Sie den gewünschten Zeitraum und bestätigen Sie Ihre Auswahl durch einen Klick auf ***"Export"***  
 ![select export range](./img/bookings_export_02.png)  
 
-4. Speichern Sie die Datei in einem für Sie passenden Ordner ab.  
+4. Speichern Sie die Datei auf Ihrem Client ab.  
 
 ## Öffnen der Exportdatei in Excel
 
-1. Öffnen Sie Excel, erstellen Sie ein neues Dokument und navigieren Sie in die Registerkarte ***"Data"*** und klicken Sie auf ***"From Text/CSV"***  
+1. Öffnen Sie Excel, erstellen Sie ein neues Dokument, navigieren Sie in die Registerkarte ***"Data"*** und klicken Sie auf ***"From Text/CSV"***  
 ![switch to data tab](./img/bookings_excel_open_file_01.png)  
 
-2. Öffnen Sie die zuvor heruntergeladene Datei, achten Sie hierbai darauf, dass Sie sich alle Dateitypen anzeigen lassen.  
+2. Öffnen Sie die zuvor heruntergeladene Datei. Achten Sie hierbei darauf, dass Sie sich alle Dateitypen anzeigen lassen.  
 ![select file](./img/bookings_excel_open_file_02.png)  
 
-3. Das Format wird automatisch erkannt, es sind also keine weiteren Einstellungen notwendig. Bestätigen Sie den import daher mit ***"Load"***.  
+3. Das Format wird automatisch erkannt, es sind also keine weiteren Einstellungen notwendig. Bestätigen Sie den Import daher mit ***"Load"***.  
 ![load file](./img/bookings_excel_open_file_03.png)  
